@@ -8,14 +8,10 @@ body {
     height: 100vh;
     background-color: #f0f0f0;
 }
-title{
-    text-align: left;
-    font-size: 2em;
-    color: #d30f0f;
-    margin: 0;
-    padding: 5em;
-}
-.container {
+
+
+.container 
+{
     width: 80%;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -32,7 +28,7 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start; /* Changed from space-around to flex-start */
 }
 
 nav ul li {
